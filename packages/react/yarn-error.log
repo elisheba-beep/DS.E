@@ -1,0 +1,76 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js start-storybook
+
+PATH: 
+  C:\Users\HP\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\HP\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files\Git\cmd;C:\Users\HP\Downloads\jdk-17_windows-x64_bin\jdk-17.0.2\bin;C:\Users\HP\Downloads\apache-maven-3.8.4-bin (1)\apache-maven-3.8.4\bin;C:\Program Files\Wolfram Research\WolframScript;C:\Users\HP\Desktop\matlab\runtime\win64;C:\Users\HP\Desktop\matlab\bin;C:\Program Files\Polyspace\R2019b\runtime\win64;C:\Program Files\Polyspace\R2019b\bin;C:\Program Files\Polyspace\R2019b\polyspace\bin;C:\Program Files\PuTTY;C:\HashiCorp\Vagrant\bin;C:\Users\HP\Desktop\matlab\polyspace\bin;C:\Program Files\nodejs;C:\MinGW\bin;C:\Users\HP\AppData\Local\Pub\Cache\bin;C:\src\flutter\bin;C:\Users\HP\AppData\Local\Programs\Python\Python38-32\Scripts;C:\Users\HP\AppData\Local\Programs\Python\Python38-32;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HP\.dotnet\tools;C:\Users\HP\AppData\Roaming\npm;C:\Users\HP\AppData\Local\Pub\Cache\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\HP\Desktop\react for enterprise\DS.E\packages\react\package.json: Unexpected token } in JSON at position 1294
+      at JSON.parse (<anonymous>)
+      at C:\Users\HP\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\HP\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\HP\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+      "name": "@ds.e/react",
+      "version": "1.0.0",
+      "main": "lib/index.js",
+      "license": "MIT",
+      "devDependencies": {
+          "@babel/core": "^7.17.10",
+          "@babel/preset-env": "^7.17.10",
+          "@babel/preset-react": "^7.16.7",
+          "@babel/preset-typescript": "^7.16.7",
+          "@storybook/addon-actions": "^6.4.22",
+          "@storybook/addon-essentials": "^6.4.22",
+          "@storybook/addon-interactions": "^6.4.22",
+          "@storybook/addon-links": "^6.4.22",
+          "@storybook/cli": "^6.4.22",
+          "@storybook/preset-typescript": "^3.0.0",
+          "@storybook/react": "^6.4.22",
+          "@storybook/testing-library": "^0.0.11",
+          "@testing-library/jest-dom": "^5.16.4",
+          "@testing-library/react": "^13.2.0",
+          "@types/jest": "^27.5.1",
+          "@types/react": "^18.0.9",
+          "babel-loader": "^8.2.5",
+          "jest": "^28.1.0",
+          "react": "^18.1.0",
+          "rollup": "^2.72.1",
+          "rollup-plugin-typescript2": "^0.31.2",
+          "typescript": "^4.6.4"
+      },
+      "scripts": {
+          "build": "rollup -c",
+          "dev": "yarn build --watch",
+          "test": "jest --verbose",
+          "test:watch": "yarn test --watch",
+          "start-storybook": "start-storybook -p 6006",
+          "build-storybook": "build-storybook",
+  
+      },
+      "dependencies": {
+          "@types/babel__generator": "^7.6.4",
+          "@types/babel__parser": "^7.1.1",
+          "@types/babel__template": "^7.4.1",
+          "@types/babel__traverse": "^7.17.1",
+          "jest-environment-jsdom": "^28.1.0"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

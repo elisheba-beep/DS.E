@@ -1,0 +1,57 @@
+/*=============================================
+=            mixins            =
+=============================================*/
+
+
+/**
+ *
+ * reusable function-like things will be sued to implement styles 
+ for components
+
+ mixins for responsiveness
+ mixin for padding, margins and every
+other type of spacing
+ *
+ */
+
+
+/*=============================================
+=            mixins for responsiveness            =
+=============================================*/
+
+@mixin tablet {
+    @media (min-width: map-get($breakpoints, "md")) {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media (min-width: map-get($breakpoints, "lg")) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: map-get($breakpoints, "xl")) {
+        @content;
+    }
+}
+
+
+/*=====  End of mixins for responsiveness  ======*/
+
+
+/*=============================================
+=            mixins for spacing            =
+=============================================*/
+
+@mixin padding($space) {
+    padding: map-get($spacing, $space);
+}
+
+@mixin margin($space) {
+    margin: map-get($spacing, $space);
+}
+
+
+/*=====  End of mixin for spacing  ======*/

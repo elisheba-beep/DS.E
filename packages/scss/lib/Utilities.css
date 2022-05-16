@@ -1,0 +1,285 @@
+/*=============================================
+=            foundation colors            =
+=============================================*/
+/**
+ *
+ * these colors would be used for the entire project
+ *
+ */
+/*=============================================
+ =            global colors            =
+ =============================================*/
+/*=============================================
+=            heading            =
+=============================================*/
+/**
+ *
+ * variables
+ *
+ */
+/*=====  End of heading  ======*/
+/*=============================================
+=            table of contents            =
+=============================================*/
+/**
+ *
+ * -colors
+ brand colors
+ neutral colors
+ utility colors
+
+ - typography
+ font families
+ font weights
+ sizes
+ heading sizes
+
+ -breakpoints
+ breakpoints
+
+
+ -spacing
+ space between elements
+ *
+ */
+/*=====  End of table of contents  ======*/
+/*=============================================
+=            colors            =
+=============================================*/
+/* brand colors */
+/* neutral colors */
+/* utility colors */
+/*=====  End of colors  ======*/
+/*=============================================
+=            typography            =
+=============================================*/
+/**
+ *
+ * description of each font family and link
+
+ 1. playfair for headings
+https://fonts.google.com/specimen/Playfair+Display
+
+ 2. raleway for body
+https://fonts.google.com/specimen/Raleway
+
+
+ *
+ */
+/* fontfamilies */
+/* 1 */
+/* 2 */
+/* font sizes */
+/* heading font sizes */
+/* font weight */
+/* line height */
+/*=====  End of typography  ======*/
+/*=============================================
+=            breakpoints            =
+=============================================*/
+/*=====  End of breakpoints  ======*/
+/*=============================================
+=            spacing            =
+=============================================*/
+/*=====  End of spacing  ======*/
+/* shadows */
+/* body colors */
+/* button colors */
+/* form colors */
+/* floating action button colors */
+/* appbar colors */
+/*=====  End of global colors  ======*/
+/*=============================================
+=            mixins            =
+=============================================*/
+/**
+ *
+ * reusable function-like things will be sued to implement styles 
+ for components
+
+ mixins for responsiveness
+ mixin for padding, margins and every
+other type of spacing
+ *
+ */
+/*=============================================
+=            mixins for responsiveness            =
+=============================================*/
+/*=====  End of mixins for responsiveness  ======*/
+/*=============================================
+=            mixins for spacing            =
+=============================================*/
+/*=====  End of mixin for spacing  ======*/
+/*=============================================
+=            foundation - typography            =
+=============================================*/
+/**
+ *
+ * defines font sizes and font weights used in the project
+ *
+ */
+/*=============================================
+=            Body font family                  =
+=============================================*/
+/*=============================================
+=            body font sizes            =
+=============================================*/
+/*=============================================
+=            heading font sizes            =
+=============================================*/
+/*=============================================
+=            heading font weight            =
+=============================================*/
+/*=============================================
+=            heading            =
+=============================================*/
+/**
+ *
+ * variables
+ *
+ */
+/*=====  End of heading  ======*/
+/*=============================================
+=            table of contents            =
+=============================================*/
+/**
+ *
+ * -colors
+ brand colors
+ neutral colors
+ utility colors
+
+ - typography
+ font families
+ font weights
+ sizes
+ heading sizes
+
+ -breakpoints
+ breakpoints
+
+
+ -spacing
+ space between elements
+ *
+ */
+/*=====  End of table of contents  ======*/
+/*=============================================
+=            colors            =
+=============================================*/
+/* brand colors */
+/* neutral colors */
+/* utility colors */
+/*=====  End of colors  ======*/
+/*=============================================
+=            typography            =
+=============================================*/
+/**
+ *
+ * description of each font family and link
+
+ 1. playfair for headings
+https://fonts.google.com/specimen/Playfair+Display
+
+ 2. raleway for body
+https://fonts.google.com/specimen/Raleway
+
+
+ *
+ */
+/* fontfamilies */
+/* 1 */
+/* 2 */
+/* font sizes */
+/* heading font sizes */
+/* font weight */
+/* line height */
+/*=====  End of typography  ======*/
+/*=============================================
+=            breakpoints            =
+=============================================*/
+/*=====  End of breakpoints  ======*/
+/*=============================================
+=            spacing            =
+=============================================*/
+/*=====  End of spacing  ======*/
+/* shadows */
+.dse-width-none {
+  width: 0;
+}
+
+.dse-height-none {
+  height: 0;
+}
+
+.dse-width-xxxs {
+  width: 0.25rem;
+}
+
+.dse-height-xxxs {
+  height: 0.25rem;
+}
+
+.dse-width-xxs {
+  width: 0.5rem;
+}
+
+.dse-height-xxs {
+  height: 0.5rem;
+}
+
+.dse-width-xs {
+  width: 0.75rem;
+}
+
+.dse-height-xs {
+  height: 0.75rem;
+}
+
+.dse-width-sm {
+  width: 1rem;
+}
+
+.dse-height-sm {
+  height: 1rem;
+}
+
+.dse-width-md {
+  width: 1.5rem;
+}
+
+.dse-height-md {
+  height: 1.5rem;
+}
+
+.dse-width-lg {
+  width: 2rem;
+}
+
+.dse-height-lg {
+  height: 2rem;
+}
+
+.dse-width-xl {
+  width: 3rem;
+}
+
+.dse-height-xl {
+  height: 3rem;
+}
+
+.dse-width-xxl {
+  width: 4.5rem;
+}
+
+.dse-height-xxl {
+  height: 4.5rem;
+}
+
+.dse-width-xxxl {
+  width: 6rem;
+}
+
+.dse-height-xxxl {
+  height: 6rem;
+}
